@@ -8,6 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinTrust.Identity.Application\FinTrust.Identity.Application.csproj" />
+    <ProjectReference Include="..\FinTrust.Identity.Infrastructure\FinTrust.Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\FinTrust.Identity.Persistence\FinTrust.Identity.Persistence.csproj" />
+    <ProjectReference Include="..\..\..\shared\BuildingBlocks\FinTrust.BuildingBlocks\FinTrust.BuildingBlocks.csproj" />
   </ItemGroup>
 
 </Project>
